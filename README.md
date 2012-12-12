@@ -13,4 +13,4 @@ Usage:
 6. Be sure to use a wrapper element (container) and give it a class of "slidein_row"
 7. Be sure that the element you want to SlideIn has a class of: "slidein_left", "slidein_middle", or "slidein_right"
 
-View sample html page online: http://jasonkrol/upload/misc/slideins_sample/sample.html
+View sample html page online: http://jasonkrol.com/upload/misc/slideins_sample/sample.html

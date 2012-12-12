@@ -17,7 +17,7 @@ function SlideIns(delay, easing) {
     function init() {
         $('.slidein_row').each(function (i, row) {
             $(row).css({ 'position': 'relative', 'clear': 'both' });
-            $(row).children('*[class^=slidein_]').css('visibility', 'hidden');
+            $(row).children('*[class*=slidein_]').css('visibility', 'hidden');
             var inrow = [$(row).offset().top + ($(row).height() / 2), $(row), false];
             slides[i] = inrow;
         });
